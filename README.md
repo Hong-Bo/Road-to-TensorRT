@@ -55,7 +55,7 @@ export CUDA_HOME="/usr/local/cuda"
 export LD_LIBRARY_PATH="/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH"
 export PATH="/usr/local/cuda-9.0/bin:$PATH"
 ```
-3. Though PyCUDA can be installed by `pip`, but you have to export set the 
+3. Though PyCUDA can be installed by `pip`, but you have to set the 
 correct environment variable in the first place in order to ensure the path of 
 CUDA available for sudo. Otherwise, you will run into a problem like this
 ```
@@ -90,7 +90,7 @@ and CUDA version
 ```
 cat /usr/local/cuda/version.txt
 ```
-Then click the right link to download TensorRT.
+Then click the correct link to download TensorRT.
 
 It is possible that your CUDA version is not supported by the current version 
 of TensorRT. It happened to me that the CUDA version on my server is `9.2`,
